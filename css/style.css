@@ -83,6 +83,11 @@ body{
     order: -1;
 }
 
+.green-section [class^="col-"]{
+    background-color: #228B22;
+    min-height: 690px;
+}
+
 .col-2{
     flex-basis: calc(100% / 6);
 }
@@ -111,3 +116,6 @@ body{
     flex-basis: calc((100% / 4) * 3);
 }
 
+.col-12{
+    flex-basis: 100%;
+}
