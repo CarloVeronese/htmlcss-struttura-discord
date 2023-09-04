@@ -66,6 +66,10 @@ body{
     justify-content: center;
 }
 
+.greybg{
+    background-color: #D3D3D3;
+}
+
 .bp-section [class^="col-"]{
     background-color: #FFC0CB;
     min-height: 380px;
@@ -75,8 +79,8 @@ body{
     background-color: #1E90FF;
 }
 
-.bp-section .grey {
-    background-color: #D3D3D3;
+.main-content .greybg .col-5{
+    order: -1;
 }
 
 .col-2{
