@@ -34,15 +34,18 @@ body{
     flex-wrap: wrap;
 }
 
-[class^="col"]{
+.debug [class^="col"]{
     border: 2px dashed black;
 }
 
 .page-header [class^='col-']{
-    background-color: #DAA520;
     padding: 8px;
 }
 
+.debug .page-header [class^='col-']{
+    background-color: #DAA520;
+
+}
 .page-header .row *:nth-child(2){
     text-align: center;
 }
@@ -55,16 +58,19 @@ body{
     padding: 40px 0;
 }
 
-.pink-section {
+.debug .section-one {
     background-color: #00008B;
 }
 
-.pink-section [class^="col"]{
+.section-one [class^="col"]{
     min-height: 300px;
+}
+
+.debug .section-one [class^="col"]{
     background-color: #EE82EE;
 }
 
-.pink-section .row {
+.section-one .row {
     justify-content: center;
 }
 
@@ -72,12 +78,15 @@ body{
     background-color: #D3D3D3;
 }
 
-.bp-section [class^="col-"]{
-    background-color: #FFC0CB;
+.section-middle [class^="col-"]{
     min-height: 380px;
 }
 
-.bp-section .col-7{
+.debug .section-middle [class^="col-"]{
+    background-color: #FFC0CB;
+}
+
+.debug .section-middle .col-7{
     background-color: #1E90FF;
 }
 
@@ -85,50 +94,64 @@ body{
     order: -1;
 }
 
-.green-section [class^="col-"]{
-    background-color: #228B22;
+.section-bottom [class^="col-"]{
     min-height: 690px;
+}
+
+.debug .section-bottom [class^="col-"]{
+    background-color: #228B22;
 }
 
 footer{
     background-color: #23272A;
 }
 
-.rg-section {
+.section-footer-top {
     padding-top: 7px;
     padding-bottom: 30px;
+}
+
+.debug .section-footer-top{
     border-bottom: 1px solid white;
 }
 
-.rg-section .row {
+.debug .section-footer-top .row {
     border: 2px dashed black;
 }
 
-.rg-section [class^="col-"]{
-    background-color: #F08080;
+.section-footer-top [class^="col-"]{
     min-height: 440px;
 }
 
-.rg-section .col-2{
+.debug .section-footer-top [class^="col-"]{
+    background-color: #F08080;
+}
+
+.debug .section-footer-top .col-2{
     background-color: #20B2AA;
     border: 2px dashed white;
 }
-
 
 .page-footer{
     padding: 20px 0 0;
 }
 
 .page-footer .row{
-    background-color: #7FFFD4;
     padding: 20px 0;
     justify-content: space-between;
 }
 
+.debug .page-footer .row{
+    background-color: #7FFFD4;
+}
+
 .page-footer [class^="col-"]{
     text-align: center;
-    background-color: #FFB6C1;
     padding: 2px;
+}
+
+.debug .page-footer [class^="col-"]{
+    background-color: #FFB6C1;
 }
 
 .col-1{
