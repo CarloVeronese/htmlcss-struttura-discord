@@ -6,7 +6,7 @@
     font-family: 'Nunito Sans', sans-serif;
 }
 
-.debug [class^="col-"]{
+.debug [class^="col"]{
     min-height: 30px;
 }
 
@@ -34,15 +34,23 @@ body{
     flex-wrap: wrap;
 }
 
+.grow-1{
+    flex-grow: 1;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
 .debug [class^="col"]{
     border: 2px dashed black;
 }
 
-.page-header [class^='col-']{
+.page-header [class^='col']{
     padding: 8px;
 }
 
-.debug .page-header [class^='col-']{
+.debug .page-header [class^='col']{
     background-color: #DAA520;
 
 }
