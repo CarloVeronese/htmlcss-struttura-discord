@@ -153,12 +153,12 @@ footer{
     background-color: #7FFFD4;
 }
 
-.page-footer [class^="col-"]{
+.page-footer [class^="col"]{
     text-align: center;
     padding: 2px;
 }
 
-.debug .page-footer [class^="col-"]{
+.debug .page-footer [class^="col"]{
     background-color: #FFB6C1;
 }
 
